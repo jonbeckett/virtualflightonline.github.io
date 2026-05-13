@@ -8,7 +8,8 @@ nav_order: 4
 
 IFR stands for **Instrument Flight Rules** — flying by reference to instruments rather than external visual cues. IFR is used when flying in cloud, at night, or on long-haul routes where visual navigation is impractical. The VFO airline's scheduled routes are typically flown IFR.
 
-> All content on this page is for entertainment purposes in flight simulation only and is not intended for real-world use.
+{: .warning }
+All content on this page is for entertainment purposes in flight simulation only and is not intended for real-world use.
 
 ## When IFR is used
 

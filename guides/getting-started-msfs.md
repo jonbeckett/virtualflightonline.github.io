@@ -4,7 +4,7 @@ parent: Guides
 nav_order: 1
 ---
 
-# Getting started with MSFS
+# Getting started with MSFS <span class="label label-blue">MSFS</span>
 
 Microsoft Flight Simulator 2020 and 2024 are the most popular simulators in the VFO community. This guide walks you through getting the sim set up and flying your first flight.
 

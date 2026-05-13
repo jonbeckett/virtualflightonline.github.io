@@ -8,7 +8,8 @@ nav_order: 10
 
 Checklists are a core discipline in aviation. They ensure that critical actions are completed in the correct order, every time — regardless of distractions, familiarity with the aircraft, or how rushed you feel.
 
-> All content on this page is for entertainment purposes in flight simulation only and is not intended for real-world use.
+{: .warning }
+All content on this page is for entertainment purposes in flight simulation only and is not intended for real-world use.
 
 ## Why use checklists?
 

@@ -4,7 +4,7 @@ parent: Guides
 nav_order: 2
 ---
 
-# Getting started with X-Plane
+# Getting started with X-Plane <span class="label label-green">X-Plane</span>
 
 X-Plane 11 and X-Plane 12 are fully supported in the VFO community. X-Plane is known for its realistic flight model and strong support for third-party aircraft and plugins.
 

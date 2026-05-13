@@ -8,7 +8,8 @@ nav_order: 9
 
 Weather is one of the most significant variables in flight simulation. Understanding how to read weather reports and plan around them makes every flight more realistic and more satisfying.
 
-> All content on this page is for entertainment purposes in flight simulation only and is not intended for real-world use.
+{: .warning }
+All content on this page is for entertainment purposes in flight simulation only and is not intended for real-world use.
 
 ## METAR
 

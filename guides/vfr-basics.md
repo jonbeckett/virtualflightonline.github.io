@@ -8,7 +8,8 @@ nav_order: 3
 
 VFR stands for **Visual Flight Rules** — the set of regulations that govern flying when visibility is sufficient to navigate by sight. Most VFO group flights for GA aircraft and beginners are conducted under VFR.
 
-> All content on this page is for entertainment purposes in flight simulation only and is not intended for real-world use.
+{: .warning }
+All content on this page is for entertainment purposes in flight simulation only and is not intended for real-world use.
 
 ## The fundamental principle
 

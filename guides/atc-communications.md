@@ -8,7 +8,8 @@ nav_order: 6
 
 Clear radio communication with Air Traffic Control is a core skill in flight simulation, especially during VFO group flights where voice coordination with other pilots matters. This guide covers standard phraseology and how radio communication works in practice.
 
-> All content on this page is for entertainment purposes in flight simulation only and is not intended for real-world use.
+{: .warning }
+All content on this page is for entertainment purposes in flight simulation only and is not intended for real-world use.
 
 ## The basic formula
 

@@ -6,7 +6,10 @@ nav_order: 5
 
 # Scoring
 
-Every flight starts with a score of **100 points**. Penalties are deducted for rule violations detected by ACARS during the flight. Scoring is intended to help you identify areas for improvement — PIREPs are not rejected purely on the basis of a low score.
+Every flight starts with a score of **100 points**. Penalties are deducted for rule violations detected by ACARS during the flight.
+
+{: .important }
+Scoring is intended to help you identify areas for improvement — PIREPs are not rejected purely on the basis of a low score.
 
 ## Scoring rules
 

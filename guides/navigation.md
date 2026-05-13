@@ -8,7 +8,8 @@ nav_order: 5
 
 Navigation in flight simulation mirrors real-world aviation navigation techniques. This guide covers the main systems — from traditional radio navaids to modern GPS and FMS.
 
-> All content on this page is for entertainment purposes in flight simulation only and is not intended for real-world use.
+{: .warning }
+All content on this page is for entertainment purposes in flight simulation only and is not intended for real-world use.
 
 ## Dead reckoning
 

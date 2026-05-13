@@ -8,6 +8,9 @@ nav_order: 7
 
 SimBrief is a free online flight dispatch tool used by virtual and real-world pilots to generate professional Operational Flight Plans (OFPs). It integrates with the VFO airline and with most major FMS add-ons.
 
+{: .tip }
+SimBrief is free. A free Navigraph account also unlocks current AIRAC data within SimBrief, keeping your route waypoints up to date.
+
 ## Creating a free account
 
 Register at [simbrief.com](https://www.simbrief.com). A free account gives you full access to all dispatch features.

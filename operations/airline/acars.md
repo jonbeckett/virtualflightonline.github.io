@@ -23,6 +23,9 @@ On first launch, ACARS will ask for a phpVMS URL and API key:
 - **URL:** `https://airline.virtualflight.online`
 - **API key:** find this on your [profile page](https://airline.virtualflight.online/profile) (click the eye icon next to "API Key")
 
+{: .tip }
+Keep your API key private. It authenticates your account to ACARS — treat it like a password.
+
 To update these later, click the pencil icon next to the profile name in ACARS.
 
 ### Add the fsuipc-lvar-module (MSFS only)
