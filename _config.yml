@@ -1,6 +1,6 @@
 title: Virtual Flight Online
 description: Your online home for virtual flight simulation
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 url: "https://virtualflightonline.github.io"
 
