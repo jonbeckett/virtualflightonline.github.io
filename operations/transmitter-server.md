@@ -1,56 +1,40 @@
 ---
 title: Self-hosted server
 parent: Operations
-nav_order: 4
+nav_order: 6
 ---
 
 # Self-hosted server
 
-The VFO Transmitter server is a lightweight PHP application that receives aircraft telemetry and exposes live views of the connected traffic. It is designed to be simple to deploy and does not require a traditional database.
+VFO runs a hosted transmitter server at `https://transmitter.virtualflight.online`. Most community members can use this directly with the MSFS or X-Plane client and do not need to run their own server.
+
+This page is for those who want to host their own instance — for example, to run a private tracking server for a specific event or group.
 
 ## What the server provides
 
-- a telemetry receive endpoint for transmitter clients
+- a receive endpoint for transmitter clients
 - a live radar display
 - a sortable aircraft status dashboard
-- embeddable map views
-- an IVAO-compatible feed for external tools
-- JSON endpoints for integrations
+- an IVAO-compatible data feed for third-party tools such as LittleNavMap
+- JSON endpoints for custom integrations
 
-## Architecture at a glance
+## How it works
 
-The server stores recent aircraft data in **APCu** memory cache. That makes the stack relatively simple:
+The server is a PHP application that uses **APCu** memory cache to store recent aircraft positions. There is no database required.
 
-1. a simulator client sends position data to the transmit endpoint
-2. the server validates and stores the update
-3. radar, status, and feed endpoints read the cached data
-4. browsers and third-party tools render the live aircraft picture
+1. A simulator client sends position data to the receive endpoint
+2. The server stores the update in APCu
+3. Radar, status, and feed endpoints read from the cache
+4. Browsers and tools render the live picture
 
-## Draft deployment requirements
+## Requirements
 
 - PHP 7.4 or newer
-- APCu enabled
-- a web server such as Apache or Nginx with PHP support
+- APCu extension enabled
+- Apache or Nginx with PHP support
 
-## Why this is useful
+## Getting the server
 
-For community-led flying, self-hosting gives organisers more control over:
+The server source is available on GitHub. Refer to the repository README for full deployment instructions.
 
-- who connects
-- how data is retained
-- which views and feeds are exposed
-- how the tooling is customised for events or groups
-
-## Planned expansion
-
-This page should eventually include a fuller deployment guide, but even in draft form it marks out the main ideas:
-
-- simple setup
-- low operational overhead
-- practical support for real-time shared flying
-
-## Related pages
-
-- [Transmitter overview](transmitter.md)
-- [Live radar and status tools](live-radar.md)
-- [Community](../community.md)
+For community questions and help, visit the [Discord server](../community/discord.md).

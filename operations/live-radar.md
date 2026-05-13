@@ -1,51 +1,40 @@
 ---
 title: Live radar and status tools
 parent: Operations
-nav_order: 5
+nav_order: 7
 ---
 
 # Live radar and status tools
 
-One of the most useful outcomes of the VFO Transmitter ecosystem is the ability to turn live aircraft data into clear, shareable operational views.
+The VFO Transmitter server provides two live views and a LittleNavMap integration so you can see online pilots in real time.
 
-## Main live views
+## Status page
 
-| Tool | Purpose |
-| --- | --- |
-| Radar display | Interactive map for watching aircraft movement in real time |
-| Status dashboard | Sortable table of online aircraft and key flight data |
-| Embed view | Lightweight radar panel for use in other pages |
-| IVAO-compatible feed | Data source for compatible third-party tools |
+**<https://transmitter.virtualflight.online/status>**
 
-## Radar capabilities
+A sortable table showing all currently online pilots. Updates automatically every 30 seconds. Click a callsign to zoom the radar to that aircraft.
 
-The related transmitter tooling describes a fairly capable web radar, including:
+## Radar display
 
-- multiple map layers
-- aircraft list and group filters
-- smooth movement and optional aircraft trails
+**<https://transmitter.virtualflight.online/radar>**
+
+An interactive map showing live aircraft positions. Updates every 5 seconds with smooth movement between position reports.
+
+Features:
+
+- multiple map layers to choose from
+- aircraft list with group filtering
 - measurement tools
-- colour schemes and weather overlay support
-- URL-based tracking of specific callsigns or groups
+- fullscreen mode
+- URL-based tracking of a specific callsign or group
 
-## Practical uses
+## LittleNavMap integration
 
-These views are valuable for:
+You can connect LittleNavMap to the VFO server to see online VFO pilots on your chart.
 
-- community group flights
-- informal ATC or event support
-- keeping an eye on traffic during training sessions
-- presenting VFO activity on other web pages or dashboards
-
-## Integrations
-
-The wider tooling also supports **Little Navmap** by exposing an IVAO-style feed, which makes the live network more useful outside the web browser.
-
-## Next steps for this page
-
-This draft content should later be expanded with:
-
-- screenshots of the radar and status dashboard
-- common filtering examples
-- embed examples for community pages
-- integration notes for Little Navmap and similar tools
+1. In LittleNavMap, open **Tools → Options** and go to the **Online Flying** tab
+2. Select **Custom** as the online service
+3. Set the **Status URL** to `https://transmitter.virtualflight.online/ivao`
+4. Set the **Whazzup URL** to `https://transmitter.virtualflight.online/ivao`
+5. Set the format to **IVAO** and the update interval to **5 seconds**
+6. Click **OK** — online VFO pilots will now appear on your chart

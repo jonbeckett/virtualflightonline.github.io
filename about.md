@@ -5,45 +5,30 @@ nav_order: 2
 
 # About Virtual Flight Online
 
-Virtual Flight Online brings pilots together in virtual airspace. It is a home for shared flying, practical flight simulation tools, and a growing library of community knowledge.
+Virtual Flight Online (VFO) is a community of flight simulation enthusiasts who enjoy flying together in a relaxed, supportive, and friendly environment. Membership is completely free and open to everyone, regardless of experience level.
 
-## What Virtual Flight Online is for
+## What we do
 
-VFO is built around a simple idea: flying is better when it is shared. The community brings together people who want to:
+VFO brings sim pilots together through:
 
-- fly group routes and events together
-- keep track of other pilots in real time
-- experiment with live radar, feeds, and online tooling
-- exchange knowledge across simulators and aircraft types
-- support a friendly, community-led approach to virtual aviation
+- **Group flights** — organised events and informal fly-ins, primarily in Microsoft Flight Simulator
+- **Virtual airline** — structured flying activity with routes, ranks, and pilot records
+- **Live tools** — the VFO Transmitter broadcasts your position so other pilots can see you on the live radar
+- **Community spaces** — an active Discord server, regular newsletter, and Facebook group
 
-## Simulators and platforms
+## Simulators
 
-Current VFO tooling and documentation centres on:
+VFO activity is primarily centred on:
 
-- **Microsoft Flight Simulator 2020/2024**
-- **X-Plane 11**
-- **X-Plane 12**
+- **Microsoft Flight Simulator 2020 and 2024**
+- **X-Plane 11 and X-Plane 12**
 
-The content on this site is being organised so that simulator-specific setup can live alongside shared community guidance.
+## Who VFO is for
 
-## What makes VFO different
+Anyone who enjoys flight simulation is welcome. There is no minimum experience requirement, no subscription fee, and no pressure. VFO facilities are intended for members aged **16 or older**.
 
-Virtual Flight Online combines a community front door with practical operational tooling:
+## Getting started
 
-- a **Transmitter** system for sharing aircraft position data
-- a **live radar** and **status dashboard** for tracking online pilots
-- a **Codex** space for reference material and guides
-- an **Airline** area for more structured flying activity
-
-## Community expectations
-
-The original VFO site notes that facilities operated by Virtual Flight Online are intended for members aged **16 or older**. As this content is migrated, that expectation remains part of the draft site copy.
-
-## Next steps
-
-If you are new to the site, the easiest starting points are:
-
-1. visit the [Community](community.md) page
-2. read the [Transmitter overview](operations/transmitter.md)
-3. explore the [Codex](codex.md) for future guides and reference material
+1. Join the [Discord server](community/discord.md) — it is the hub of all community activity
+2. Introduce yourself in the introductions channel
+3. Check the [Operations](operations/) section to set up the VFO Transmitter and join a group flight

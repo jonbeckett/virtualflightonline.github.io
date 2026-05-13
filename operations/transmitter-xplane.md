@@ -1,54 +1,40 @@
 ---
 title: Transmitter for X-Plane
 parent: Operations
-nav_order: 3
+nav_order: 5
 ---
 
 # Transmitter for X-Plane
 
-The X-Plane version of the VFO Transmitter is a **FlyWithLua** script for **X-Plane 11** and **X-Plane 12**. It sends real-time aircraft telemetry to a transmitter server so X-Plane pilots can take part in the same shared tracking environment.
+The X-Plane version of the VFO Transmitter is a **FlyWithLua** script for **X-Plane 11** and **X-Plane 12**. It sends your aircraft position to the VFO Transmitter server in real time.
 
-## Why it matters
+## Requirements
 
-X-Plane pilots often want a clearer view of where other human pilots are flying, especially during shared flights or informal ATC sessions. The VFO Transmitter helps bridge that gap by sending aircraft data to a central server that can then power radar and compatible data feeds.
+- X-Plane 11 or X-Plane 12
+- FlyWithLua NG plugin
 
-## Highlights
+## Step 1 — Install FlyWithLua
 
-- real-time position transmission
-- persistent configuration between sessions
-- optional auto-connect at startup
-- text-to-speech connection feedback
-- automatic reconnection handling
-- Little Navmap compatibility through IVAO-style feeds
+If you do not already have FlyWithLua installed:
 
-## Typical setup
+1. Download **FlyWithLua NG** from the [X-Plane.org forums](https://forums.x-plane.org/index.php?/files/file/38445-flywithlua-ng-next-generation-edition-for-x-plane-11-win-lin-mac/)
+2. Extract the download and copy the `FlyWithLua` folder into your X-Plane `Resources/plugins/` directory
+3. Restart X-Plane to confirm the plugin is loaded (it will appear in the Plugins menu)
 
-1. Install **FlyWithLua**
-2. Copy the transmitter script into the FlyWithLua `Scripts` folder
-3. Reload Lua scripts or restart X-Plane
-4. Open the Transmitter XP window from the plugin menus
-5. Configure the server URL, callsign, pilot name, and group
-6. Connect and begin transmitting
+## Step 2 — Install the transmitter script
 
-## Best fit
+1. Download the latest transmitter script from [GitHub](https://github.com/jonbeckett/virtualflightonlinetransmitter/releases/tag/Transmitter)
+2. Copy `transmitter_xp.lua` into your `Resources/plugins/FlyWithLua/Scripts/` folder
+3. In X-Plane, go to **Plugins → FlyWithLua → Reload all Lua scripts** (or restart X-Plane)
 
-This client is ideal for:
+## Step 3 — Configure and connect
 
-- shared VFO group flights in X-Plane
-- community fly-ins where live situational awareness matters
-- users who want to feed Little Navmap or the VFO radar from X-Plane
+1. Open the Transmitter XP window from **Plugins → FlyWithLua → FlyWithLua Macros**
+2. Enter your **callsign**, **pilot name**, **group** (use `VFO` for VFO community flights), and the server URL `https://transmitter.virtualflight.online`
+3. Click **Connect**
+4. Your position will now appear on the [live radar](live-radar.md)
 
-## Good details to capture in future revisions
+## Troubleshooting
 
-As the migration continues, this page is a natural place to expand with:
-
-- illustrated installation steps
-- example server URLs
-- configuration screenshots
-- troubleshooting for FlyWithLua and LuaSocket
-
-## Related pages
-
-- [Transmitter overview](transmitter.md)
-- [Self-hosted server guide](transmitter-server.md)
-- [Live radar and status tools](live-radar.md)
+- If the script does not appear in the Macros menu, confirm `transmitter_xp.lua` is in the correct `Scripts/` folder and that FlyWithLua loaded without errors
+- LuaSocket must be available — it is included with FlyWithLua NG

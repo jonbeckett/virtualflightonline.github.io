@@ -1,59 +1,40 @@
 ---
 title: Transmitter for MSFS
 parent: Operations
-nav_order: 2
+nav_order: 4
 ---
 
 # Transmitter for MSFS
 
-The Microsoft Flight Simulator client is a lightweight Windows application that reads live aircraft data through **SimConnect** and sends regular updates to a compatible VFO Transmitter endpoint.
-
-## What it is good for
-
-- sharing your position during community flights
-- feeding live radar and status pages
-- keeping setup straightforward for Microsoft Flight Simulator pilots
-
-## Core workflow
-
-1. Launch the client while MSFS is running
-2. Enter your callsign, pilot name, and group name
-3. Select the correct transmitter server URL
-4. Connect and allow the app to send live updates
-
-## Information it can transmit
-
-The client is designed to send a practical operating snapshot, including:
-
-- aircraft type
-- latitude and longitude
-- altitude
-- heading
-- airspeed and groundspeed
-- touchdown velocity
-- transponder code
-- pilot and group details
-- optional notes
+The MSFS client is a small Windows application that reads your aircraft position through **SimConnect** and sends it to the VFO Transmitter server.
 
 ## Requirements
 
 - Microsoft Windows
-- .NET Framework 4.7.2
-- Microsoft Flight Simulator with SimConnect available
+- .NET Framework 4.7.2 or newer
+- Microsoft Flight Simulator 2020 or 2024
 
-## Notes for VFO members
+## Installation
 
-This client is a good fit if you want the simplest path into the Transmitter ecosystem from MSFS. It focuses on dependable, low-friction position sharing rather than a large feature set in the client itself.
+1. Download the latest release from [GitHub](https://github.com/jonbeckett/vfo-transmitter-client-msfs/releases/)
+2. Run the installer and follow the prompts
+3. The client will appear in the Start Menu as **VFO Transmitter**
 
-## Troubleshooting themes
+## Setup
 
-The related project notes a few common issues worth checking first:
+1. Launch **VFO Transmitter** from the Start Menu
+2. Enter your **callsign**, **pilot name**, and **group** (for VFO flights, use `VFO` as the group)
+3. The server URL is pre-configured to use the VFO hosted server — you do not need to change it
+4. Start Microsoft Flight Simulator and load into an aircraft
+5. Click **Connect** in the VFO Transmitter client
+6. The status indicator will show that you are transmitting
 
-- confirm MSFS and SimConnect are both available
-- verify the configured server URL is correct
-- check the app status text if transmissions fail
-- reconnect after simulator restarts or temporary network interruptions
+## Checking it is working
 
-## Next page
+Once connected, open the [live radar](live-radar.md) in your browser. Your callsign should appear on the map within a few seconds.
 
-Once the client is connected, the most useful follow-up is the [Live radar and status tools](live-radar.md) page so you can see how the shared data is presented.
+## Troubleshooting
+
+- If the client will not connect, make sure MSFS is fully loaded into the simulator (not just the main menu)
+- If your position does not appear on the radar, check that the server URL is set to `https://transmitter.virtualflight.online`
+- Restart the client after a simulator crash or reload
