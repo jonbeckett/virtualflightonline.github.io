@@ -25,12 +25,25 @@
 | File | Title | nav_order |
 | --- | --- | --- |
 | `operations/group-flights.md` | Group flights | 1 |
-| `operations/airline.md` | Airline | 2 |
+| `operations/airline/index.md` | Airline | 2 |
 | `operations/transmitter.md` | Transmitter | 3 |
 | `operations/transmitter-msfs.md` | Transmitter for MSFS | 4 |
 | `operations/transmitter-xplane.md` | Transmitter for X-Plane | 5 |
 | `operations/transmitter-server.md` | Self-hosted server | 6 |
 | `operations/live-radar.md` | Live radar and status tools | 7 |
+
+## Airline section (`operations/airline/`)
+
+| File | Title | nav_order |
+| --- | --- | --- |
+| `operations/airline/beginners-guide.md` | Beginners guide | 1 |
+| `operations/airline/acars.md` | ACARS | 2 |
+| `operations/airline/flights.md` | Flights | 3 |
+| `operations/airline/ranks.md` | Ranks | 4 |
+| `operations/airline/scoring.md` | Scoring | 5 |
+| `operations/airline/pireps.md` | PIREPs | 6 |
+| `operations/airline/fleet.md` | Fleet | 7 |
+| `operations/airline/tours.md` | Tours | 8 |
 
 ## Resources section (`resources/`)
 

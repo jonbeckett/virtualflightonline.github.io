@@ -11,7 +11,7 @@ The operations section covers all the practical flying activity in VFO: group fl
 | Page | What it covers |
 | --- | --- |
 | [Group flights](group-flights.md) | Organised events and informal fly-ins |
-| [Airline](airline.md) | The VFO virtual airline — routes, ranks, and pilot records |
+| [Airline](airline/) | The VFO virtual airline — routes, ranks, and pilot records |
 | [Transmitter](transmitter.md) | Overview of the VFO live tracking system |
 | [Transmitter for MSFS](transmitter-msfs.md) | Installation and setup for Microsoft Flight Simulator |
 | [Transmitter for X-Plane](transmitter-xplane.md) | Installation and setup for X-Plane 11/12 |
