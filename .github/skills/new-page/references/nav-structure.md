@@ -11,6 +11,8 @@
 | `community/index.md` | Community | 3 |
 | `operations/index.md` | Operations | 4 |
 | `resources/index.md` | Resources | 5 |
+| `guides/index.md` | Guides | 6 |
+| `events/index.md` | Events | 7 |
 
 ## Community section (`community/`)
 
@@ -19,6 +21,8 @@
 | `community/discord.md` | Discord | 1 |
 | `community/newsletter.md` | Newsletter | 2 |
 | `community/facebook.md` | Facebook group | 3 |
+| `community/events.md` | Events | 4 |
+| `community/forums.md` | Forums and discussion | 5 |
 
 ## Operations section (`operations/`)
 
@@ -31,6 +35,9 @@
 | `operations/transmitter-xplane.md` | Transmitter for X-Plane | 5 |
 | `operations/transmitter-server.md` | Self-hosted server | 6 |
 | `operations/live-radar.md` | Live radar and status tools | 7 |
+| `operations/virtual-atc.md` | Virtual ATC | 8 |
+| `operations/event-guide.md` | Event guide | 9 |
+| `operations/multi-crew.md` | Multi-crew flying | 10 |
 
 ## Airline section (`operations/airline/`)
 
@@ -52,19 +59,62 @@
 | `resources/liveries.md` | Liveries | 1 |
 | `resources/code-of-conduct.md` | Code of conduct | 2 |
 | `resources/support.md` | Support VFO | 3 |
+| `resources/scenery.md` | Scenery | 4 |
+| `resources/aircraft.md` | Aircraft | 5 |
+| `resources/peripherals.md` | Peripherals | 6 |
+| `resources/tools.md` | Tools and software | 7 |
+| `resources/glossary.md` | Glossary | 8 |
+| `resources/useful-links.md` | Useful links | 9 |
+
+## Guides section (`guides/`)
+
+| File | Title | nav_order |
+| --- | --- | --- |
+| `guides/getting-started-msfs.md` | Getting started with MSFS | 1 |
+| `guides/getting-started-xplane.md` | Getting started with X-Plane | 2 |
+| `guides/vfr-basics.md` | VFR basics | 3 |
+| `guides/ifr-basics.md` | IFR basics | 4 |
+| `guides/navigation.md` | Navigation | 5 |
+| `guides/atc-communications.md` | ATC communications | 6 |
+| `guides/simbrief.md` | SimBrief | 7 |
+| `guides/littlenavmap.md` | Little Navmap | 8 |
+| `guides/weather-planning.md` | Weather planning | 9 |
+| `guides/checklists.md` | Checklists | 10 |
+
+## Events section (`events/`)
+
+| File | Title | nav_order |
+| --- | --- | --- |
+| `events/upcoming.md` | Upcoming events | 1 |
+| `events/archive/index.md` | Archive | 2 |
+
+## Events archive section (`events/archive/`)
+
+| File | Title | nav_order |
+| --- | --- | --- |
+| `events/archive/2025.md` | 2025 events | 1 |
+| `events/archive/2024.md` | 2024 events | 2 |
 
 ## Adding a new top-level page
 
-The current highest top-level `nav_order` is **5** (Resources). A new top-level page should use `nav_order: 6` or higher.
+The current highest top-level `nav_order` is **7** (Events). A new top-level page should use `nav_order: 8` or higher.
 
 ## Adding a new child page to Operations
 
-The current highest child `nav_order` in Operations is **7** (Live radar). A new child should use `nav_order: 8` or higher.
+The current highest child `nav_order` in Operations is **10** (Multi-crew flying). A new child should use `nav_order: 11` or higher.
 
 ## Adding a new child page to Community
 
-The current highest child `nav_order` in Community is **3** (Facebook group). A new child should use `nav_order: 4` or higher.
+The current highest child `nav_order` in Community is **5** (Forums and discussion). A new child should use `nav_order: 6` or higher.
 
 ## Adding a new child page to Resources
 
-The current highest child `nav_order` in Resources is **3** (Support VFO). A new child should use `nav_order: 4` or higher.
+The current highest child `nav_order` in Resources is **9** (Useful links). A new child should use `nav_order: 10` or higher.
+
+## Adding a new child page to Guides
+
+The current highest child `nav_order` in Guides is **10** (Checklists). A new child should use `nav_order: 11` or higher.
+
+## Adding a new child page to Events
+
+The current highest child `nav_order` in Events is **2** (Archive). A new child should use `nav_order: 3` or higher.

@@ -6,8 +6,12 @@ url: "https://virtualflightonline.github.io"
 
 # Aux links in top-right navigation
 aux_links:
-  "GitHub":
-    - "https://github.com/jonbeckett/virtualflightonline.github.io"
+  "Airline":
+    - "https://airline.virtualflight.online"
+  "Radar":
+    - "https://transmitter.virtualflight.online/radar"
+  "Discord":
+    - "https://bit.ly/virtualflightonlinediscord"
 
 # Footer content
 footer_content: "&copy; Virtual Flight Online"
